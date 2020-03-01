@@ -156,6 +156,7 @@
   }
   
   .contains {
+    transform: scale(.9);
     display: block;
     width: 300px;
     height: 300px;
@@ -201,6 +202,10 @@
     padding: 2px;
     border: 1px solid var(--third-accent);
     border-radius: 5px;
+  }
+
+  .text a:hover{
+    background:black;
   }
 
   .img-thumbnail{

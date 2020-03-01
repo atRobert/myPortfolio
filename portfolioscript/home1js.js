@@ -36,7 +36,7 @@ $(document).ready(function() {
     var projectInvolved = $('.project-involved')
   
     $('.fa-python').hover(function(){
-      projectInvolved.text('PYTHON');
+      projectInvolved.text('PYTHON (DJANGO)');
     }, function(){
       projectInvolved.text('\xa0')
     })
@@ -67,6 +67,11 @@ $(document).ready(function() {
     })
     $('.fa-react').hover(function(){
       projectInvolved.text('REACT JS');
+    }, function(){
+      projectInvolved.text('\xa0')
+    })
+    $('.fa-bootstrap').hover(function(){
+      projectInvolved.text('BOOTSTRAP');
     }, function(){
       projectInvolved.text('\xa0')
     })
