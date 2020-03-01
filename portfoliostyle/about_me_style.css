@@ -1,0 +1,51 @@
+.about-me-header{
+    font-size:40px;
+  }
+  .about-me-paragraph{
+    font-size:20px;
+  }
+  
+  .about-me-paragraph-2{
+    font-size:27px;
+  }
+  .about-me-icons{
+    font-size:36px;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .fa-stack{
+    border: black 2px solid;
+    border-radius: 4px;
+  }
+  
+  .fab{
+    top: 10px;
+  }
+  
+  @media (max-width:1000px) {
+    .about-me-header{
+      font-size:20px;
+    }
+    .about-me-paragraph{
+      font-size:15px;
+    }
+    .about-me-icons{
+      font-size:15px;
+      margin-top:50px;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+  
+    .about-me-paragraph-2{
+      font-size:15px;
+    }
+  
+    .fab{
+      top:5px;
+    }
+  
+  }

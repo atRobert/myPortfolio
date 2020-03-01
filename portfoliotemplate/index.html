@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<style media="screen">
+    body {
+        overflow-x: hidden;
+    }
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RJB Dev</title>
+    <!-- BROWSER ICON -->
+    <link rel="icon" href="../portfolioimages/rico.png">
+    <!-- BootStrap Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Google Font Links -->
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom CSS Links -->
+    <link rel="stylesheet" href="../portfoliostyle/base_style.css">
+    <link rel="stylesheet" href="../portfoliostyle/formstyle.css.css">
+    <link rel="stylesheet" href="../portfoliostyle/about_me_style.css">
+
+    <!-- Link to Jquery Full -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+    <!-- NavBar (Hamburgers on small screen) -->
+    <nav class="navbar  navbar-expand-lg fixed-top" id='myScrollspy' data-aos-once="false" data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000" data-aos-anchor="#about">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars" >
+        </i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mx-auto ">
+
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="#my_projects">My Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Body Content -->
+    <div class="row first" id='home'>
+        <div class="window-view">
+            <p style='height:20vh'></p>
+            <h1>Let's build something <span class='key-word'>together</span>.</h1>
+            <br>
+            <div class='main-link'>
+                <a class='scroll' href="#about">About me <i class="fas fa-angle-right"></i></a>
+            </div>
+            <br>
+            <div class="social-top">
+                <a href="https://www.linkedin.com/in/rjbarrett05/" target="_blank"><i class="fab fa-linkedin social-button"></i></a>
+                <a href="https://github.com/atRobert" target="_blank"><i class="fab fa-github-square social-button"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row second" id='about' style='max-width:100vw;'>
+        <div class="window-view">
+            <h1>Biology Graduate. Developer Ambitions.</h1>
+            <br>
+            <div class='container'>
+                <div class="row about-me-row">
+                    <div class="col-lg-6 col-xs-8 my-auto about-me-header">
+                        <p>Hi, I'm <span class='key-word'>Robert Barrett</span>.</p>
+                        <p>A self-taught developer.</p>
+                    </div>
+                    <div class="col-lg-6 col-xs-8">
+                        <p class='about-me-paragraph' id="trigger-right">After graduating from <b><span class='key-word'>
+              CSU San Bernardino</span></b>, I wanted to try my hand at programming. I began with console based games and eventually moved to webscraping and bots. After some curiosity, I moved towards web development. Now most of my free time is spent creating and learning about HTML, CSS and JavaScript along with frameworks to support them (front or backend).</p>
+                    </div>
+                    <br>
+                    <div class="col-lg-12 col-xs-12 about-me-icons">
+                        <span class="fa-stack fa-2x animation-element" data-aos="flip-left" data-aos-delay="150" data-aos-duration="1000" data-aos-anchor="#trigger-right">
+                <i class="fas fa-folder fa-stack-2x"></i>
+                <i class="fab fa-python fa-stack-1x fa-inverse" style='color:black'></i>
+              </span>
+                        <span class="fa-stack fa-2x animation-element" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000" data-aos-anchor="#trigger-right">
+                <i class="fas fa-folder fa-stack-2x"></i>
+                <i class="fab fa-html5 fa-stack-1x fa-inverse" style='color:black'></i>
+              </span>
+                        <span class="fa-stack fa-2x animation-element" data-aos="flip-left" data-aos-delay="450" data-aos-duration="1000" data-aos-anchor="#trigger-right">
+                <i class="fas fa-folder fa-stack-2x"></i>
+                <i class="fab fa-css3-alt fa-stack-1x fa-inverse" style='color:black'></i>
+              </span>
+                        <span class="fa-stack fa-2x animation-element" data-aos="flip-left" data-aos-delay="600" data-aos-duration="1000" data-aos-anchor="#trigger-right">
+                <i class="fas fa-folder fa-stack-2x"></i>
+                <i class="fab fa-js fa-stack-1x fa-inverse" style='color:black'></i>
+              </span>
+                    </div>
+                    <div class="col-lg-12 col-xs-12 about-me-paragraph-2">
+                        <br> I love the challenge of learning new languages and frameworks, and being able to use their tools to make something useful and beautiful.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row third" id='my_projects'>
+        <div class="window-view">
+            <h1>My projects</h1>
+            <br>
+            <div class='row projects-row'>
+                <div class="col-lg-4 col-xs-12">
+                    <div class="contains" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+                        <img class='img-thumbnail image' src="../portfolioimages/dmwebsite.png" alt="">
+                        <div class='overlay'>
+                            <div class="text container">
+                                <a href="https://www.dmdjango.com/" target='_blank'>DmDjango.com</a>
+                                <p></p>
+                                <p>eCommerce and forum website based off the T.V. show "The office."</p>
+                                <p>Source code for this project coming soon!</p>
+                                <p>This project involved:</p>
+                                <p style='font-size:30px'>
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-python"></i>
+                                    <i class="fab fa-git-alt"></i>
+                                </p>
+                                <p class='project-involved'>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                    <div class="contains" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+                        <img class='img-thumbnail image' src="../portfolioimages/siegfried.png" alt="">
+                        <div class='overlay'>
+                            <div class="text container">
+                                <h1>Siegfried</h1>
+                                <p></p>
+                                <p>Created python scripts and programs that helped with day to day workflow.</p>
+                                <p>Because all programs are property of Siegfried, source code is withheld.</p>
+                                <p>Some libraries used:</p>
+                                <p>Pandas // MatplotLib // xlWings // smtplib</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12 ">
+                    <div class="contains" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">
+                        <img class='img-thumbnail image' src="../portfolioimages/EzMoney.png" alt="">
+                        <div class='overlay'>
+                            <div class="text container">
+                                <a href="https://ez-money.herokuapp.com/" target='_blank'>Ez Money</a>
+                                <p></p>
+                                <p>Web app used to create savings goals, track progess and make it happen.</p>
+                                <p>Source Code:</p>
+                                <a href="https://github.com/atRobert/EzMoney">Github Repository</a>
+                                <p style='padding-top:5px;'>This project involded:</p>
+                                <p style='font-size:30px'>
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-python"></i>
+                                    <i class="fab fa-git-alt"></i>
+                                </p>
+                                <p class='project-involved'>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row projects-row'>
+                <div class="col-lg-4 col-xs-12 ">
+                    <div class="contains" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">
+                        <img class='img-thumbnail image' src="../portfolioimages/calc.png" alt="">
+                        <div class='overlay'>
+                            <div class="text container">
+                                <a href="https://atrobert.github.io/odin_project/calculator/calc.html" target='_blank'>Calculator App</a>
+                                <p></p>
+                                <p>Calculator app created using JavaScript. Functionality of this calculator is based off the iOS11 Calculator.</p>
+                                <p>Source Code:</p>
+                                <a href="https://github.com/atRobert/odin_project/tree/master/calculator">Github Repository</a>
+                                <p style='padding-top:5px;'>This project involded:</p>
+                                <p style='font-size:30px'>
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </p>
+                                <p class='project-involved'>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12 ">
+                    <div class="contains" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">
+                        <img class='img-thumbnail image' src="../portfolioimages/todolist.png" alt="">
+                        <div class='overlay'>
+                            <div class="text container">
+                                <a href="https://atRobert.github.io/ToDoList/" target='_blank'>To Do List</a>
+                                <p></p>
+                                <p>To do list made using React. Create projects with descriptions and add tasks to those projects. Everything is saved using Local Storage.</p>
+                                <p>Source Code:</p>
+                                <a href="https://github.com/atRobert/odin_project/tree/master/calculator">Github Repository</a>
+                                <p style='padding-top:5px;'>This project involded:</p>
+                                <p style='font-size:30px'>
+                                    <i class="fab fa-react"></i>
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </p>
+                                <p class='project-involved'>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12 ">
+                    <div class="contains" data-aos="fade-right" data-aos-delay="1200" data-aos-duration="1000">
+                        <img class='img-thumbnail image' src="../portfolioimages/weather.png" alt="">
+                        <div class='overlay'>
+                            <div class="text container">
+                                <a href="https://atRobert.github.io/odin_project/weather-app/weather.html" target='_blank'>Weather App</a>
+                                <p></p>
+                                <p>Weather App using OpenWeather API and TimeZoneDB API to find temperature and time of a city.</p>
+                                <p>Source Code:</p>
+                                <a href="https://github.com/atRobert/odin_project/tree/master/calculator">Github Repository</a>
+                                <p style='padding-top:5px;'>This project involded:</p>
+                                <p style='font-size:30px'>
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </p>
+                                <p class='project-involved'>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="row fourth" id='contact'>
+        <div class="window-view">
+            <h1>Let's get in touch.</h1>
+            <br>
+            <form id="my-form" action="https://formspree.io/xdozllod" method="POST">
+                <div class="jumbotron" data-aos='zoom-in' data-aos-delay="200" data-aos-duration="500">
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <input type="text" class='form-control form-style' name="name" placeholder="Name" data-aos='zoom-in' data-aos-delay="400" data-aos-duration="500" />
+                    <input type="email" class='form-control form-style' name="email" placeholder="Email" data-aos='zoom-in' data-aos-delay="500" data-aos-duration="500" />
+                    <textarea name="message" class='form-control form-style' cols="30" rows="10" placeholder="Leave your message here, and I'll get back to you as soon as I can!" data-aos='zoom-in' data-aos-delay="600" data-aos-duration="500"></textarea>
+                    <button id="my-form-button" class='btn btn-mine' data-aos='zoom-in' data-aos-delay="400" data-aos-duration="500">Send</button>
+                    <p id="my-form-status"></p>
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/rjbarrett05/" target="_blank"><i class="fab fa-linkedin social-button"></i></a>
+            <a href="https://github.com/atRobert" target="_blank"><i class="fab fa-github-square social-button"></i></a>
+        </div>
+    </div>
+
+    </div>
+
+    <script type="text/javascript" src="../portfolioscript/home1js.js"></script>
+    <script type="text/javascript" src="../portfolioscript/formspree.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 200,
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+
+</html>
