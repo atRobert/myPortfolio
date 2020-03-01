@@ -12,7 +12,7 @@ var status = document.getElementById("my-form-status");
 function success() {
     form.reset();
     button.style = "display: none ";
-    status.innerHTML = "Your message has been sent!";
+    status.innerHTML = "Sent!";
 }
 
 function error() {
