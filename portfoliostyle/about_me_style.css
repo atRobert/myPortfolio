@@ -2,7 +2,7 @@
     font-size:40px;
   }
   .about-me-paragraph{
-    font-size:20px;
+    font-size:23px;
   }
 
   .about-me-paragraph-2{
@@ -34,15 +34,15 @@
 
   @media (max-width:1000px) {
     .about-me-header{
-      font-size:20px;
+      font-size:30px;
     }
     .about-me-paragraph{
-      font-size:15px;
+      font-size:22px;
     }
     .about-me-icons{
       font-size:15px;
-      margin-top:50px;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-around;
       padding: 10px;
     }
@@ -53,6 +53,19 @@
 
     .fab{
       top:5px;
+    }
+    .square-outer{
+      transform: rotate(23deg) scale(.7);
+    }
+
+  }
+
+  @media (max-width:700px) {
+    .about-me-header{
+      font-size: 23px;
+    }
+    .about-me-paragraph {
+      font-size:18px;
     }
 
   }

@@ -54,6 +54,13 @@
     border-radius:5px;
   }
 
+  .projects-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1040px;
+  }
+
   @media (max-width:1000px) {
     .active{
       width: 150px;
@@ -349,7 +356,6 @@
 .row-form{
   height:auto;
   padding: 10px;
-  flex-direction: column
 }
 
 .btn{
@@ -428,9 +434,25 @@
 
     font-size: 40px;
   }
+}
 
+.square-outer{
+  border:3px solid black;
+  width:100px;
+  height:100px;
+  transform: rotate(23deg);
+}
 
+.square-inner{
+  border:3px solid var(--third-accent);
+  width:100px;
+  height:100px;
+  transform: rotate(-45deg);
+}
 
-
-
+.square-inner > i{
+  transform: rotate(
+20deg
+) translate(4px, 15px);
+    font-size: 58px;
 }
